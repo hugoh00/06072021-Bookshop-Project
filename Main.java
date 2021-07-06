@@ -1,4 +1,4 @@
-public class Main {
+public class main {
     /**
 	 * The main entry point of the program
 	 * @param args - not used

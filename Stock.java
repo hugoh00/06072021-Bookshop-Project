@@ -1,13 +1,13 @@
 /**
  * @author H. Hay
  */
-public class Stock {
+public class stock {
 
     private int stockID;
     private String stockName;
     private int stockPrice;
 
-    public Stock(int stockID, String stockName, int stockPrice) {
+    public stock(int stockID, String stockName, int stockPrice) {
         this.setStockID(stockID);
         this.setStockName(stockName);
         this.setStockPrice(stockPrice);
@@ -53,7 +53,7 @@ public class Stock {
 	public String getStockName() {
 		return stockName;
 	}
-    
+
     /**
 	 * Returns the Price of the stock item
 	 * @return the Price of the Stock
