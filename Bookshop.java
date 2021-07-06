@@ -21,7 +21,11 @@ public class bookshop {
 	 * Returns the Name of the Bookshop
 	 * @return the Name of the Bookshop
 	 */
-	public int getBookshopName() {
+	public String getBookshopName() {
 		return bookshopName;
 	}
+
+    /**
+    * Bookshop can create a Transaction Object
+    */
 }
